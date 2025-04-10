@@ -212,7 +212,7 @@
         <p>
           {% if version == "dev" %}{% trans "Offline (development version):" %}
           {% else %}{% blocktrans %}Offline (Django {{ version }}):{% endblocktrans %}{% endif %}
-          <a href="{{ MEDIA_URL }}docs/django-docs-{{ version }}-{{ lang }}.zip">HTML</a> |
+          <a href="https://django.readthedocs.io/_/downloads/{{ lang }}/{{ rtd_version }}/htmlzip/">HTML</a> |
           <a href="https://django.readthedocs.io/_/downloads/{{ lang }}/{{ rtd_version }}/pdf/">PDF</a> |
           <a href="https://django.readthedocs.io/_/downloads/{{ lang }}/{{ rtd_version }}/epub/">ePub</a>
           <br>
